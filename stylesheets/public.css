@@ -1,0 +1,85 @@
+/*
+F6F7BC - light yellow: HEADER
+2E3739 - gray-blue: TEXT
+77C4AB - turk-green: LEFT SIDE BAR
+DAEDE2 - light beidge-green: MAIN AREA, Page
+#b3443b - poppy light red: LINKS, h1, 
+e8e0d0
+*/
+
+table, tr, td {
+	border-collapse: collapse;
+	vertical-align: top;
+	font-size: 12px;
+	line-height: 15px;
+}
+a {
+	color: #2E3739;
+}
+#header {
+	height: 70px; 
+	margin-top: 0px;
+	padding: 0px;
+	text-align: left;
+	background: #ffeab0;
+	color: #2E3739;
+}
+#header h1 {
+	padding: 1.5em;
+	margin: 0px; 
+	font-size: 16px;
+	color: #2E3739;
+}
+#main {
+	margin: 0px;
+	padding: 0px;
+	height: 600px;
+	width: 100%;
+	background: #e8e0d0;
+}
+#structure {
+	height: 600px;
+	width: 100%;
+	color: #2E3739;
+}
+#footer {
+	height: 2em;
+	margin: 0px;
+	padding: 1em;
+	text-align: right;
+	background: #ffeab0;
+	color: #2E3739;
+}
+
+/*navigation*/
+#navigation {
+	width: 150px;
+	padding: 1em 2em;
+	color: white;
+	background: #b3443b;
+}
+#navigation a {
+	color: #f1f8fa;
+	text-decoration: none;
+	font-size: 13px; 
+	line-height: 18px; 
+}
+
+ul.subjects {
+	padding-left: 0;
+	list-style: none;
+	color: white;
+}
+
+ul.pages {
+	padding-left: 2em;
+	list-style: square;
+}
+
+.selected {
+	font-weight: bold;
+}
+/*Page Content*/
+#page { padding-left: 2em; vertical-align: top; background: #fdfcf9;}
+#page h2 { color: #2E3739; margin-top: 1em;}
+#page h3 { color: #2E3739;}
